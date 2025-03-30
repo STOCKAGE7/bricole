@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -27,9 +29,9 @@ body {
 
 .box{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 
@@ -38,6 +40,8 @@ h1 {
   line-height: 1.1;
   text-align: center;
 }
+
+
 
 
 
