@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./compo/Navbar";
+import HeaderHome from "./compo/homeheader.tsx/HeaderHome";
 
 const App = () => {
   return (
     <Router>
       <Navbar />
+      <HeaderHome/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
